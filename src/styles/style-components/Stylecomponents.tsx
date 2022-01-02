@@ -17,8 +17,7 @@ const Title = styled.h2`
 const CardBody = styled.p``
 
 
-const code = `import { ReactElement } from 'react'
-import styled from 'styled-components'
+const code = `import styled from 'styled-components'
 
 const Card = styled.div\`
   width: 500px;

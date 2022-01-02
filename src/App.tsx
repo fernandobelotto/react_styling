@@ -3,11 +3,11 @@ import { Outlet, Link, NavLink } from "react-router-dom";
 export default function App() {
 
   const links = [
-    { path: '/cssfiles', name: 'cssfiles' },
-    { path: '/cssmodules', name: 'cssmodules' },
-    { path: '/inlinestyling', name: 'inlinestyling' },
-    { path: '/stylecomponents', name: 'stylecomponents' },
-    { path: '/tailwindcss', name: 'tailwindcss' },
+    { path: '/', name: 'CSS Files' },
+    { path: '/cssmodules', name: 'CSS Modules' },
+    { path: '/inlinestyling', name: 'Inline Styling' },
+    { path: '/stylecomponents', name: 'Style Components' },
+    { path: '/tailwindcss', name: 'Tailwind CSS' },
     // { path: '/less', name: 'less' },
     // { path: '/sass', name: 'sass' },
     // { path: '/emotion', name: 'emotion' },

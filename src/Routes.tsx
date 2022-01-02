@@ -5,7 +5,6 @@ import {
     Route
 } from "react-router-dom";
 import App from './App';
-import Home from './Home';
 import Cssfiles from './styles/css-files/Cssfiles';
 import Cssmodules from './styles/css-modules/Cssmodules';
 import Emotion from './styles/emotion/Emotion';
@@ -23,8 +22,7 @@ export default function AppRoutes({ }: {}): ReactElement {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<App />}>
-                        <Route index element={<Home />} />
-                        <Route path='/cssfiles' element={<Cssfiles />} />
+                        <Route index element={<Cssfiles />} />
                         <Route path='/cssmodules' element={<Cssmodules />} />
                         <Route path='/inlinestyling' element={<Inlinestyling />} />
                         <Route path='/tailwindcss' element={<Tailwindcss />} />
